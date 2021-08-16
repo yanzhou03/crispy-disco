@@ -19,7 +19,7 @@ simulated_patient_data
 This is the data viz
 ```{r}
 simulated_patient_data %>%
- filter(birthdate >= "1955-02-17" & birthdate <= "2020-11-09") %>%
+ filter(birthdate >= "1950-02-17" & birthdate <= "2020-11-09") %>%
  
     filter(marital %in% "S" | is.na(marital)) %>%
  ggplot() +
